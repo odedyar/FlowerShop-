@@ -92,8 +92,7 @@ const styles = StyleSheet.create({
     subHeaderText: {
       fontSize: 27,
       color: '#555',
-      fontStyle:'italic',
-      color:'#f56c6c'
+      fontStyle:'italic'
     },
     imageContainer: {
       alignItems: 'center',
@@ -150,6 +149,6 @@ const styles = StyleSheet.create({
     buttonText: {
       color: '#fff',
       fontWeight: 'bold',
-      fontSize:'30px'
+      fontSize: 30
     },
   });
