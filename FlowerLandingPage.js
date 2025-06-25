@@ -70,6 +70,30 @@ export default function FlowerlandingPage() {
             <Text style={styles.buttonText}>Shop Now</Text>
             </TouchableOpacity>
         </View>
+        <View style={styles.featuredSection}>
+        <Text style={styles.sectionTitle}>Mother's Day Special.</Text>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+                <View style={styles.flowerCard}>
+                    <Image
+                    source={{ uri: 'https://images.unsplash.com/photo-1487435636644-3ad040f0195b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
+                    style={styles.flowerImage}
+                    />
+                    <Text style={styles.flowerTitle}>Tulip</Text>
+                </View>
+                <View style={styles.flowerCard}>
+                    <Image
+                    source={{ uri: 'https://images.unsplash.com/photo-1556216750-2108e1e54e9a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
+                    style={styles.flowerImage}
+                    />
+                <Text style={styles.flowerTitle}>Orchid</Text>
+                </View>
+                <View style={styles.buttonContainer}>
+                    <TouchableOpacity style={styles.button} onPress={() => alert('Shop Now')}>
+                    <Text style={styles.buttonText}>Shop Now</Text>
+                    </TouchableOpacity>
+                </View>
+            </ScrollView>
+        </View>
       </View>
     </ScrollView>
   );
